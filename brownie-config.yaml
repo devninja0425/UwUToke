@@ -1,0 +1,12 @@
+reports:
+  exclude_contracts:
+    - SafeMath
+
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@4.5.0
+
+compiler:
+  solc:
+    remappings:
+      - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.5.0'
+
